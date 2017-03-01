@@ -65,7 +65,7 @@ if(isset($_POST['signup-btn'])) {
         header("Location: index.php");
 
         $_SESSION['errormsg'] = "<div class='alert alert-danger'>
-     <span class='glyphicon glyphicon-info-sign'></span> &nbsp; sorry email already taken !
+     <span class='glyphicon glyphicon-info-sign'></span> &nbsp; sorry email already taken please register with another email address !
     </div>";
 
     }
