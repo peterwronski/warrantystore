@@ -17,6 +17,8 @@ session_start();?>
     <link rel="stylesheet" href="../views/css/style.css">
 </head>
 <body>
+<?php include('header.html') ?>
+
 
 <div class=" container">
     <div class="row">

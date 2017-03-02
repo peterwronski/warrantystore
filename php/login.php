@@ -9,6 +9,9 @@ session_start();
 session_unset();
 require_once 'db.php';
 
+
+include('header.html');
+
 if (isset($_SESSION['userSession'])&&(($_SESSION['userSession']) != "")) {
     header("Location: landing.php");
 }
