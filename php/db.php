@@ -6,10 +6,10 @@
  * Time: 3:53 PM
  */
 
-$servername = "localhost";
-$username = "root";
-$password = "root";
-$dbname = "WarrantyStore";
+$servername = "br-cdbr-azure-south-b.cloudapp.net";
+$username = "bc0de30da1c8f0";
+$password = "03527049";
+$dbname = "warrantystore";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password,$dbname);
