@@ -6,8 +6,9 @@
  * Time: 7:41 PM
  */
 
-include('header.html');
+
 
 session_start();
 session_unset();
 header("Location: index.php");
+

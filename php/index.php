@@ -36,7 +36,7 @@ session_start();?>
             ?>
             <?php if (isset($_SESSION['emailmsg'])){
                 echo $_SESSION['emailmsg'];
-            }
+            };
             ?>
             <?php if (isset($_SESSION['sqlmsg'])){
                 echo $_SESSION['sqlmsg'];

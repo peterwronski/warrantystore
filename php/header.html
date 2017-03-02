@@ -34,8 +34,16 @@
             <button type="submit" class="btn btn-default">Submit</button>
         </form>
         <ul class="nav navbar-nav navbar-right">
-            <li><a href="signup.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-            <li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            <?php
+            if (isset($_SESSION['userSession'])&&(($_SESSION['userSession']) != "")) {
+            echo"<li><p class=\"navbar-text\"> Welcome " .$_SESSION['userSession']."</p>
+            <li><a href=\"logout.php\"><span class=\"glyphicon glyphicon-user\"></span> Log out</a></li>";
+            }
+            else{
+            echo"<li><a href=\"signup.php\"><span class=\glyphicon glyphicon-user\"></span> Sign Up</a></li>
+            <li><a href=\"login.php\"><span class=\"glyphicon glyphicon-log-in\"></span> Login</a></li>";
+            };
+            ?>
         </ul>
         </div>
     </div>
