@@ -7,16 +7,8 @@
  */
 session_start();?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Welcome</title>
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<?php include('header.html') ?>
 
-    <link rel="stylesheet" href="../views/css/style.css">
-</head>
-<body>
 
 <div class=" container">
     <div class="row">
@@ -34,7 +26,7 @@ session_start();?>
             ?>
             <?php if (isset($_SESSION['emailmsg'])){
                 echo $_SESSION['emailmsg'];
-            }
+            };
             ?>
             <?php if (isset($_SESSION['sqlmsg'])){
                 echo $_SESSION['sqlmsg'];
