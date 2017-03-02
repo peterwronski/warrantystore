@@ -7,16 +7,6 @@
  */
 session_start();?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Welcome</title>
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
-    <link rel="stylesheet" href="../views/css/style.css">
-</head>
-<body>
 <?php include('header.html') ?>
 
 
