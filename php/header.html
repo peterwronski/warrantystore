@@ -36,7 +36,7 @@
             <ul class="nav navbar-nav navbar-right">
                 <?php
             if (isset($_SESSION['userSession'])&&(($_SESSION['userSession']) == true)) {
-            echo'<li>Welcome ' .$_SESSION['userSession'].'
+            echo'<li><p class="welcometext">Welcome ' .$_SESSION['userSession'].'</p></li>
                 <li><a href="logout.php"><span class="glyphicon glyphicon-user"></span> Log out</a></li>';
                 }
                 else{
