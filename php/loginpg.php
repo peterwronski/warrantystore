@@ -6,7 +6,7 @@
  * Time: 4:05 P
  */
 
-
+session_start();
 if (isset($_SESSION['userSession'])&&(($_SESSION['userSession']) == true)){
     include('header_loggedin.html');
 }
