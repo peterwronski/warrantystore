@@ -7,7 +7,7 @@
  */
 
 
-header('header.html');
+include('header.html');
 echo "<h1>welcome " .$_SESSION['userSession']."</h1>";
 
 echo '<a href="logout.php" >logout</a>';
