@@ -1,4 +1,6 @@
-<?php include('header.html'); ?>
+<?php
+session_start();
+include('header.html'); ?>
 
 <div class="container"
 <div class="row">
