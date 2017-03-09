@@ -23,6 +23,10 @@ p{
     padding-bottom: 2%;
 }
 
+.navbar-text{
+    padding-right: 5%;
+}
+
 .contentbox{
     background-color: rgba(255,255,255,0.5);
 }
