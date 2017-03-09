@@ -24,6 +24,7 @@ p{
 }
 
 p.navbar-text{
+    border: 1px solid white;
     padding-right: 10%;
 }
 
