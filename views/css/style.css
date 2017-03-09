@@ -26,6 +26,7 @@ p{
 p.navbar-text{
     width: auto;
     border: 1px solid black;
+    white-space:nowrap;
 }
 
 .contentbox{
