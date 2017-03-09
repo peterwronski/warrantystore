@@ -30,20 +30,17 @@
                 <li><a href="useraccount.php" >Your Account</a></li>
             </ul>
 
-            <?php
 
-            echo'<ul class="nav navbar-nav navbar-right">';
 
-            if (isset($_SESSION['userSession'])&&(($_SESSION['userSession']) == true)) {
-            echo'<li><p class="navbar-text">Welcome '.$_SESSION['userSession'].'!</p></li>
-                <li><a href="logout.php"><span class="glyphicon glyphicon-user"></span> Log out</a></li>';
-                }
-                else{
-                echo'<li><a href="loginpg.php"><span class="glyphicon glyphicon-user"></span> Sign Up / Login</a></li>';
-                };
+            <ul class="nav navbar-nav navbar-right">
 
-            echo'</ul>';
-            ?>
+
+            <li><p class="navbar-text welcometext">Welcome <?php '.$_SESSION['userSession'].'?>!</p></li>
+                <li><a href="logout.php"><span class="glyphicon glyphicon-user"></span> Log out</a></li>;
+
+
+            </ul>
+
         </div>
     </div>
 </nav>
