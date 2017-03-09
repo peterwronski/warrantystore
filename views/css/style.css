@@ -15,7 +15,7 @@ body{
     background-size: cover;
 }
 
-p:not(.welcometext){
+p{
     color: black;
     padding-left: 2%;
     padding-right: 2%;
