@@ -3,7 +3,7 @@
  * Created by PhpStorm.
  * User: offormachukwunonso
  * Date: 2/26/17
- * Time: 4:05 P
+ * Time: 4:05 PM
  */
 
 session_start();
