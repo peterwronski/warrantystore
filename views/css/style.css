@@ -24,8 +24,8 @@ p{
 }
 
 p.navbar-text{
-    border: 1px solid white;
-    padding-right: 50%;
+    width: auto;
+    border: 1px solid black;
 }
 
 .contentbox{
