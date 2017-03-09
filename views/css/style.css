@@ -15,20 +15,12 @@ body{
     background-size: cover;
 }
 
-p{
-    color:black;
-    padding-left:2%;
-    padding-right:2%;
+p {
+    color: black;
+    padding-left: 2%;
+    padding-right: 2%;
     padding-top: 2%;
-    padding-bottom:2%;
-}
-
-.welcometext{
-    color:white;
-    /*padding-left:0%;
-    padding-right:0%;
-    padding-top: 0%;
-    padding-bottom:0%*/
+    padding-bottom: 2%;
 }
 
 .contentbox{
