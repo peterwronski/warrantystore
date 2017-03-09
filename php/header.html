@@ -32,10 +32,10 @@
             </ul>
 
 
+
+
+            <ul class="nav navbar-nav navbar-right">
             <?php
-
-            echo'<ul class="nav navbar-nav navbar-right">';
-
             if (isset($_SESSION['userSession'])&&(($_SESSION['userSession']) == true)) {
             echo'<p class="navbar-text welcometext">Welcome '.$_SESSION['userSession'].'!</p></
             <li><a href="logout.php"><span class="glyphicon glyphicon-user"></span> Log out</a></li>';
@@ -43,9 +43,8 @@
             else{
             echo'<li><a href="loginpg.php"><span class="glyphicon glyphicon-user"></span> Sign Up / Login</a></li>';
             };
-
-            echo'</ul>';
             ?>
+            </ul>
         </div>
     </div>
 </nav>
